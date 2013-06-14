@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BloxxApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">bloxxboard</string>
+    <string name="bloxxboardlabel">bloxxboard</string>
+    <string name="login_button">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    
+    
+    <string-array name="navigation_array">
+        <item>Home</item>
+        <item>Friend</item>
+        <item>Group</item>
+        <item>Messages</item>
+        <item>Appointment</item>
+        <item>Document</item>
+        <item>Student Council</item>
+        <item>CareerServices</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homeWall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_gravity="center_vertical"
+        android:background="#000000"
+        android:text="Home"
+        android:textColor="#ffffff"
+        android:textAlignment="center" />
+
+    <ListView
+        android:id="@+id/wallList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#ffffff"
+        android:padding="2dp" >
+    </ListView>
+
+</LinearLayout>
