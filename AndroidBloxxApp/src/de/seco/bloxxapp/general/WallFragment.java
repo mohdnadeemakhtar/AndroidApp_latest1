@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import de.seco.bloxxapp.domain.BloxxUser;
@@ -48,8 +49,8 @@ public class WallFragment extends Fragment {
            int i = getArguments().getInt(ARG_PLANET_NUMBER);
            String navigationText = getResources().getStringArray(R.array.navigation_array)[i];          
            
-           TextView textView = (TextView) rootView.findViewById(R.id.menuText);
-           textView.setOnClickListener(new OnClickListener() {
+           ImageView navigationIcon = (ImageView) rootView.findViewById(R.id.navigationIcon);
+           navigationIcon.setOnClickListener(new OnClickListener() {
                public void onClick(View view) {
             	   mDrawerLayout.openDrawer(mDrawerList);
                  }

@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -64,6 +65,7 @@ public class BinderData extends BaseAdapter {
 	    	holder = (ViewHolder)vi.getTag();
 	    }
 
+//	    Log.e("Image : ", BloxxResources.myBloxxUser.getImage().toString());
 	      holder.firstName.setText(dataCollection.get(position).get("firstName"));
 	      holder.lastName.setText(dataCollection.get(position).get("lastName"));
 	      holder.email.setText(dataCollection.get(position).get("email"));

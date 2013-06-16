@@ -40,8 +40,8 @@ public class LoginTask extends AsyncTask<Void, Void, Void> {
 		try {
 			loginAndSaveBloxxUser();
 			
-			loginData = getJSONfromURL("http://10.0.2.2:8080/mobile/getUserWall");
-			Log.e("LoginData  :", loginData);
+//			loginData = getJSONfromURL("http://10.0.2.2:8080/mobile/getUserWall");
+//			Log.e("LoginData  :", loginData);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
